@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html >
+<html lang="en" onmouseover="typeWriter()" >
 
 
 
@@ -19,6 +19,9 @@
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   
     
 </head>
@@ -26,7 +29,7 @@
 
 <body>
   <!-- ======= Header ======= -->
-  <header onmouseover="typeWriter()" id="header" class="header-tops">
+  <header id="header" class="header-tops">
     <div class="container">
       
 
@@ -36,6 +39,7 @@
       <!-- <h2>I'm a <span class="typed" data-typed-items="Python Developer., ML Enthusiast., Photographer."></span></h2>
        -->
        <h2  >I'm a <span></span></h2>
+       
        <h3 id="demo"></h3>
        
 <script>
@@ -90,12 +94,12 @@
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
 
-      <!-- ======= About Me ======= -->
+    <!-- ======= About Me ======= -->
       <div class="about-me container">
   
         <div class="section-title"  width= 100% style="display:table-row;">
           <h1> About </h1>
-          <p>Learn more about me</p>
+          <p><h2>Learn more about me</h2></p>
         </div>
   
         <div class="row" >
@@ -104,7 +108,7 @@
             <img src="mee.jpg"  style="object-fit: cover; width:350px; height 600px; " style="display:block" class="img-fluid" alt="Image">
           </div>  
           
-          <div class="col-lg-8 pt-4 pt-lg-0 content" width = 50% data-aos="fade-left" style="margin-left:450px;">
+          <!-- <div class="col-lg-8 pt-4 pt-lg-0 content" width = 50% data-aos="fade-left" style="margin-left:450px;"> -->
             
             <h4>
               Helllooooo <span class="wave">👋</span>
@@ -122,7 +126,7 @@
             <p>
               I aspire to dive deeper into the field of Web development and data science.
             </p>
-          </div>
+          <!-- </div> -->
 
         </div>  
   
@@ -133,63 +137,63 @@
   <!-- ======= Skills  ======= -->
   
 
-  <div class="skills container" style="margin-top: 300px;">
+  <div class="skills container" ">
 
       <div class="section-title">
         <h2>Skills</h2>
       </div>
 
       <div class="row skills-content">
-<!--   
+  
         <div class="col-lg-6">
- -->
+
           <div class="progress">
             <span class="skill">Python <i class="val">70%</i></span>
             <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%"></div>
             </div>
           </div>
 
           <div class="progress">
             <span class="skill">C++ <i class="val">70%</i></span>
             <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%"></div>
             </div>
           </div>
 
           <div class="progress">
             <span class="skill">Java <i class="val">20%</i></span>
             <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:20%"></div>
             </div>
           </div>
 
-        <!-- </div> -->
+        </div>
 
-        <!-- <div class="col-lg-6"> -->
+        <div class="col-lg-6">
 
           <div class="progress">
             <span class="skill">Lua <i class="val">30%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="3" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-skill-bar">
+              <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width:30%"></div>
             </div>
           </div>
 
           <div class="progress">
             <span class="skill">HTML <i class="val">80%</i></span>
             <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%"></div>
             </div>
           </div>
 
           <div class="progress">
             <span class="skill">CSS <i class="val">60%</i></span>
             <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%" ></div>
             </div>
           </div>
 
-        <!-- </div> -->
+        </div>
 
       </div>
 
@@ -301,14 +305,15 @@
             <!-- <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p> -->
           </div>
 
+          
+        </div>
+        <div class="col-lg-6">
           <h3 class="resume-title">Awards</h3>
           <div class="resume-item">
             <h4>-</h4>
             <!-- <h5>Oct 2019</h5> -->
             <!-- <p>Secured <a href="https://www.isquareit.edu.in/event/fe-student-teams-from-i%C2%B2it-for-winning-the-first-and-the-second-prize-at-the-barclays-tech-innovation-challenge-2019/" target="_blank">1st Prize</a> in the intercollegiate competition organized by Barclays for the idea of a sensor for waste segregation.</p> -->
           </div>
-        </div>
-        <div class="col-lg-6">
           <h3 class="resume-title">Professional Experience</h3>
           <div class="resume-item">
             <h4>Girlscript Summer of Code, Participant</h4>
@@ -384,16 +389,17 @@
               </div>
         </div>
           </div>
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="info-box">
+              <i class="bx bx-envelope"></i>
+              <h3>Email Me</h3>
+              <h4>onkar.s.wagh@gmail.com</h4>
+            </div>
+          </div>
+          
         </div>
 
         <!-- <div class="col-md-6 mt-4 d-flex align-items-stretch"> -->
-        <div class="col-md-6 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-envelope"></i>
-            <h3>Email Me</h3>
-            <h4>onkar.s.wagh@gmail.com</h4>
-          </div>
-        </div>
         <!-- <div class="col-md-6 mt-4 d-flex align-items-stretch">
           <div class="info-box">
             <i class="bx bx-phone-call"></i>
@@ -579,12 +585,13 @@
   });
 
   // Skills section
-  $('.skills-content').waypoint(function() {
-    $('.progress .progress-bar').each(function() {
-      $(this).css("width", $(this).attr("aria-valuenow") + '%');
-    });
-  }, {
-    offset: '80%'
+
+  $(document).ready(function() {
+    $('.progress .progress-bar').css("width",
+              function() {
+                  return $(this).attr("aria-valuenow") + "%";
+              }
+      )
   });
 
   // Testimonials carousel (uses the Owl Carousel library)
@@ -662,7 +669,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #7eb3c4c5 url("blackback.jpg") top right no-repeat;
+  background: #020202c5 url("blackback.jpg") top right no-repeat;
   background-position: 0%;
   background-size: cover;
   left: 0;
@@ -738,11 +745,6 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(255, 255, 255, 0.8);
 }
 
-#header h2 span {
-  color: #fff;
-  border-bottom: 4px solid #FCAE1E;
-  padding-bottom: 6px;
-}
 
 #header img {
   padding: 0;
@@ -1112,15 +1114,47 @@ section .container {
     font-size: 14px;
   }
   
+  
   /*--------------------------------------------------------------
   # Skills
   --------------------------------------------------------------*/
+
+.progress {
+  height: 20px;
+    border-radius:20px;
+
+}
+
+.progress .skill .val {
+  float: right;
+  font-style: normal;
+  margin: 0 20px 0 0;
+}
+span {
+  
+    display:block;
+    position: relative;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform:uppercase;
+    color: #888888;
+	line-height: 17px;
+	margin-bottom:4px;
+}
+.progress-bar {
+  text-align: left;
+
+  border-radius:20px;
+  transition-duration: 30s;
+  
+}
+
   .skills .progress {
     height: 50px;
     display: block;
     background: none;
     
-  }
+}
   
   .skills .progress .skill {  
     padding: 10px 0;
@@ -1138,14 +1172,15 @@ section .container {
   }
   
   .skills .progress-bar-wrap {
-    background: rgb(51, 32, 63);
+    background: rgb(26, 2, 41);
   } 
   
   .skills .progress-bar { 
     width: 1px;
     height: 10px;
     transition: 0.9s;
-    background-color: #cec5d5;
+    background-color: #e6e0ea;
+    
   }
   
   /*--------------------------------------------------------------
@@ -1155,7 +1190,8 @@ section .container {
     display: flex;
     align-items: center;
     padding: 20px;
-    background: rgba(136, 79, 79, 0.08);
+    background: rgba(193, 155, 155, 0.104);
+ 
     transition: ease-in-out 0.3s;
   }
   
@@ -1163,6 +1199,8 @@ section .container {
     font-size: 32px;
     padding-right: 10px;
     line-height: 1;
+    
+
   }
   
   .interests .icon-box h3 {
@@ -1171,11 +1209,15 @@ section .container {
     padding: 0;
     line-height: 1;
     font-size: 16px;
+    
     color: rgb(173, 160, 202);
   }
   
   .interests .icon-box:hover {
     background: rgba(255, 255, 255, 0.12);
+    
+    
+    
   }
 
   
