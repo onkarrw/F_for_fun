@@ -19,8 +19,28 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   
-    </head>
 
+                  
+      <nav  style="text-align:center; color:white; text-decoration:none; padding:0.5rem; margin-left:0.1rem; margin-right:10rem; align-items:flex-end;">
+          <ul>
+              <a class="inde" href='index.html'>Home</a>
+              <a class="inde" href='about.html'>About</a>
+              <a class="inde" href='resume.html'>Resume</a>
+              
+              <a  class="inde "  href='' aria-label='RSS'> 
+                     <svg class="icon" xmlns="" viewBox="0 0 24 24" height="16" width="16">
+              <path fill="currentColor"
+                d="M 4 4.44 v 2.83 c 7.03 0 12.73 5.7 12.73 12.73 h 2.83 c 0 -8.59 -6.97 -15.56 -15.56 -15.56 Z m 0 5.66 v 2.83 c 3.9 0 7.07 3.17 7.07 7.07 h 2.83 c 0 -5.47 -4.43 -9.9 -9.9 -9.9 Z M 6.18 15.64 A 2.18 2.18 0 0 1 6.18 20 A 2.18 2.18 0 0 1 6.18 15.64">
+              </path>
+            </svg> 
+                  </a>
+              </li>
+          </ul>
+      </nav>
+
+
+    </head>
+    <body>
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
 
@@ -28,17 +48,17 @@
         <div class="about-me container">
     
           <div class="section-title"  width= 100% style="display:table-row;">
-            <h1> About </h1>
-            <p>Learn more about me</p>
+            <h1 class="aboutima"> About </h1>
+            <!-- <p>Learn more about me</p> -->
           </div>
     
           <div class="row" >
            
             <div class="col-lg-4" width = 50% data-aos="fade-right" style="float:left;">
-              <img src="mee.jpg"  style="object-fit: cover; width:350px; height :600px " style="display:block" class="img-fluid" alt="Image">
+              <img src="4.jpg"  style="object-fit: cover; width:320px; height :500px " style="display:block" class="img-fluid" alt="Image">
             </div>  
             
-            <div class="col-lg-8 pt-4 pt-lg-0 content" width = 50% data-aos="fade-left" style="margin-left:450px;">
+            <div class="col-lg-8 pt-4 pt-lg-0 content" width = 50% data-aos="fade-left" style="float:right">
               
               <h4>
                 Helllooooo <span class="wave">👋</span>
@@ -198,6 +218,7 @@
   </div>
 
     </section>
+    </body>
   </html>
 
   <style>
@@ -211,13 +232,13 @@ body {
   color: #fff;
   position: relative;
   background: transparent;
-  margin: 200px;
+  margin: 100px;
 }
 
 body::before {
   content: "";
   position: fixed;
-  background: #111111;
+  background-image: url("3.jpg");
   background-position: 80%;
   background-size: cover;
   left: 0;
@@ -391,7 +412,7 @@ section.section-show {
 }
 
 section .container {
-  background: rgba(7, 7, 7, 0.9);
+  
   padding: 30px;
 }
 
@@ -620,6 +641,36 @@ span {
   .interests .icon-box:hover {
     background: rgba(255, 255, 255, 0.12);
   }
+
+
+  .inde
+  {
+    
+    font-size: large;
+    padding: 20px;
+  }
+
+
+  a {
+    color: #ffffff;
+  }
+  
+  a:hover {
+    color: #895ca0;
+    text-decoration: none;
+  }
+  
+
+.aboutima
+{
+  
+  background: -webkit-linear-gradient(rgb(234, 53, 7), hsl(66, 96%, 38%), hsl(113, 28%, 43%), hsl(191, 22%, 70%), hsl(297, 93%, 21%));
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  font-size: 50px;
+  -webkit-text-fill-color: transparent;
+  
+}
 
   
 </style>

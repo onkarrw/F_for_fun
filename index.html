@@ -8,10 +8,14 @@
     <!-- <link rel='amphtml' href="https://waylonwalker.com/{{ slug }}/amp/"> -->
     <meta property="monetization" name="monetization" content="$ilp.uphold.com/MGN2ni2YMXaQ">
 
+
     <!-- <link rel='stylesheet' href='/fonts.css' />
   <link rel='stylesheet' href='/archive-styles.css' />m
   <link rel='stylesheet' href='/article.css' /> -->
     <link rel='stylesheet' href='https://waylonwalker.com/main.min.css' />
+    <!--  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--  -->
     <link rel="preload" href="/one-dark.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preload" href="/furo-purge.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <!-- <link rel="preload" href="/scroll.css" as="style" onload="this.onload=null;this.rel='stylesheet'"> -->
@@ -43,10 +47,10 @@
       padding: 0;
     }
     h2 {
-      text-transform: uppercase;
+      
       margin: 0;
       padding: 0;
-      font-size: 3rem;
+      font-size: 2.8rem;
       color: white;
     }
     h3 {
@@ -59,6 +63,7 @@
       color: #FAF9FE;
       text-decoration: none;
     }
+    
     #splash {
       position: absolute;
       top: 0;
@@ -69,21 +74,10 @@
       animation-duration: 11s;
       animation-name: fadein;
       animation-iteration-count: 1;
+      opacity:0.2;
+      
     }
-    @keyframes fadein {
-      0% {
-        opacity: 0;
-      }
-      10% {
-        opacity: .2;
-      }
-      90% {
-        opacity: .2;
-      }
-      100% {
-        opacity: .3;
-      }
-    }
+
     #tagline {
       padding: 0 1rem;
       align-items: flex-start;
@@ -91,13 +85,13 @@
       width: 100vw;
     }
     #tagline .inner {
-      backdrop-filter: blur(10px);
+     
       align-items: flex-start;
       padding: 1rem 2rem;
     }
     #about {
       align-items: flex-start;
-      backdrop-filter: blur(10px);
+      
       align-self: center;
       margin-top: 10vh;
     }
@@ -132,13 +126,13 @@
 
 
 
-<body style="background-color:black" >
-<video autoplay muted id="splash">
-  <source src="" type="video/mp4">
+<body  >
+<video autoplay muted loop id="splash">
+  <source src="11.mp4" type="video/mp4">
 </video>
 <section id='tagline'>
     <nav>
-        <ul>
+        <ul >
             <li><a href='<!-- to edit add vid or something else -->'>Home</a></li>
             <li><a href='about.html'>About</a></li>
             <li><a href='resume.html'>Resume</a></li>
@@ -166,7 +160,7 @@
   <p style='padding-left: 1.5rem;'>
   👋 <span class='flair', style='font-size: 1.8rem'>Hey there</span>, I am Onkar Wagh
   </p>
-  <h2  class="ima" style="color:rgb(5, 144, 95)">i'm a<span></span></h2>
+  <h2  class="ima" style="color:rgb(5, 144, 95)">I'm a<span></span></h2>
  
   <p> <strike style="opacity:70%">Student</strike>, <strike style="opacity:70%">Engineer</strike>, <strike style="opacity:70%">Person</strike>,
     <span style='position: relative; display: inline-block; left: -1rem; top: 1rem; transform: rotate(12deg);'>
@@ -183,7 +177,7 @@
 
   <script>
     var i = 0;
-    var txt = 'Python Developer, web Developer, Photographer/I work and make content here.';
+    var txt = 'Python Developer, web Developer, Photographer';
     var speed = 80;
     
     function typeWriter() {
@@ -227,9 +221,8 @@
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
+  
 }
-
 
 </style>
 
@@ -245,22 +238,15 @@
   <div class='social-wrapper'>
     <h2 class="socialsima">Socials</h2>
     <ul class='social'>
-      <li>
-        <a href="">twitter</a>
-      </li>
-      <li>
-        <a href="">LinkedIn</a>
-      </li>
-      <li>
-        <a href="">GitHub</a>
-      </li>
-      <!-- <li>
-        <a href="">Dev.to</a>
-      </li>
-      <li>
-        <a href="">twitch</a>
-      </li> -->
+      <div class="social-links"></div>
+        <a href="https://www.linkedin.com/" ><i class="fa fa-linkedin" style="font-size:35px" ></i></a>
+        <a href="https://twitter.com/Omkar66727044" ><i class="fa fa-twitter"style="font-size:35px"></i></a>
+        <a href="https://github.com/onkarrw" ><i class="fa fa-github" style="font-size:35px"></i></a>
+        <a href="https://www.instagram.com/0mkar_2654/" ><i class="fa fa-instagram"style="font-size:35px"></i></a>
+  
+  
     </ul>
+  </div>
   </div>
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"7261fef12df76ef8","version":"2022.6.0","r":1,"token":"e8a63d6d8c854816a949f7e8540988de","si":100}' crossorigin="anonymous"></script>
 </body>
@@ -268,3 +254,32 @@
 </html>
 
 
+
+<style>
+  
+
+
+
+#header .social-links a {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  line-height: 1;
+  margin-right: 12px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background: #63489c 
+}
+
+#header .social-links a:hover {
+  background: #af474b;
+  /*#EC9706; */
+  /*#18d26e*/
+}
+
+
+</style>
