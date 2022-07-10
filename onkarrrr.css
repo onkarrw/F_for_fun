@@ -1,0 +1,290 @@
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Space Mono", monospace
+}
+
+h1 {
+    font-size: 2.5em;
+    font-family: "Space Mono", monospace;
+    color: #6a65ca;
+    color: #ff66c4;
+    font-weight: 700
+
+}
+
+h3 {
+    font-family: "Space Mono", monospace
+}
+
+p {
+    font-family: "Space Mono", monospace;
+    color: rgba(255, 255, 255, .6);
+    font-size: 21px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    background:none 
+}
+
+
+* {
+    box-sizing: border-box
+}
+
+* {
+    font-family: "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace
+}
+
+article,
+body,
+div,
+footer,
+header,
+hgroup,
+html,
+nav,
+section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-shrink: 0
+}
+
+li,
+p,
+ul {
+    margin: 0;
+    padding: 0
+}
+
+p {
+    margin-bottom: 1rem
+}
+
+body,
+html {
+    min-height: 100vh;
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 2rem;
+    overflow-x: hidden;
+    color: #fafafa;
+    display: flex;
+    padding: 0;
+    background-size: 800px;
+    min-height: 100vh;
+    background: #000  no-repeat center center fixed;
+    background-size: cover
+}
+
+.flair {
+    color: #ff66c4;
+    background: -webkit-linear-gradient(-30deg, #e1af66, #c122ac);
+    background-clip: none;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+section {
+    margin-bottom: 5rem
+}
+
+h1 {
+    color: #ff66c4
+}
+
+nav {
+    padding: 1rem 0;
+    align-items: flex-end;
+    max-width: 1000px;
+    width: 100%
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex
+}
+
+nav ul li {
+    margin: 0 .4rem
+}
+
+nav ul li a {
+    text-align: center;
+    color: #dcdcdc;
+    text-decoration: none;
+    padding: .5rem !important;
+    margin-left: .1rem;
+    margin-right: .1rem;
+    align-items: flex-end
+}
+
+nav ul li a:focus-visible,
+nav ul li:hover a,
+ul.archive-tags li a:focus-visible,
+ul.archive-tags li:hover a {
+    color: #ff66c4
+}
+
+.social {
+    display: flex
+}
+
+.social li {
+    list-style-type: None
+}
+
+.social a {
+    color:white;
+    padding: 1rem .2rem
+}
+
+  
+.social a:hover
+{
+    color:#af474b;
+}
+
+  h1 {
+    margin: .1rem;
+    padding: 0;
+  }
+  h2 {
+    
+    margin: 0;
+    padding: 0;
+    font-size: 2.8rem;
+    color: white;
+  }
+  h3 {
+    font-size: 1.8rem;
+    margin: 0;
+    padding: 0;
+  }
+  h3 a{
+    color: #F9F7F5;
+    color: #FAF9FE;
+    text-decoration: none;
+  }
+  
+  #splash {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    animation-duration: 11s;
+    animation-name: fadein;
+    animation-iteration-count: 1;
+    opacity:0.2;
+    
+  }
+
+  #tagline {
+    padding: 0 1rem;
+    align-items: flex-start;
+    height: 60vh;
+    width: 100vw;
+  }
+  #tagline .inner {
+   
+    align-items: flex-start;
+    padding: 1rem 2rem;
+  }
+  #about {
+    align-items: flex-start;
+  
+    align-self: center;
+    margin-top: 10vh;
+    background: none;
+    box-sizing: none;
+
+    
+    
+    
+  }
+  #cta {
+    align-items: flex-start;
+    padding: 0 4rem;
+    width: 100vw;
+  }
+  #cta a.feed{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #222;
+    text-decoration: none;
+    background: white;
+    padding: 1rem 1.2rem;
+  } 
+  .social-wrapper {
+    position: absolute;
+    bottom: 0;
+    margin: 2rem auto;
+    justify-self: center;
+    align-self: center;}
+  strike {
+    color: rgba(255, 255, 255, .8);
+    text-decoration-color: #e1af66;
+  }
+
+  .ima
+  {
+    font-size: 35px;
+    color:rgb(5, 144, 95);
+    background: -webkit-linear-gradient(rgb(3, 154, 91), rgb(0, 98, 163));
+    background-clip: border-box;
+    position:relative;
+    right:10px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .socialsima
+  {
+    background: -webkit-linear-gradient(rgb(240, 255, 243), rgb(70, 71, 71));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+  }
+  
+#header .social-links a {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgb(127, 1, 89);
+    line-height: 1;
+    margin-right: 12px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: #63489c 
+  }
+  
+  #header .social-links a:hover {
+    background: #af474b;
+    /*#EC9706; */
+    /*#18d26e*/
+  }
+
+  strike {
+
+opacity: 70%;
+
+  }
+  
+
+  .unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
