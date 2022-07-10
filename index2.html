@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang='en' >
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <meta property="monetization" name="monetization" content="$ilp.uphold.com/MGN2ni2YMXaQ">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel='stylesheet' href='css/onkarrrr.css' />
+  <link rel="stylesheet" href="css/index.css">
+
+  <title>Profile Onkar Wagh</title>
+
+</head>
+
+
+
+<body class="unselectable " onload="typeWriter()">
+
+  <video autoplay muted loop id= "splash">
+    <source src = "imgs/11.mp4"  type="video/mp4">
+  </video>
+
+
+ <!--  -->
+<!--  -->
+<!-- Game canvas -->  
+<canvas id="c" style="position:absolute; z-index:1"  ></canvas>
+
+<link rel="stylesheet" href="Boxsmasher/min.css">
+    
+
+<!-- Gameplay HUD -->
+
+<div class="hud hud__score score-lbl cube-count-lbl pause-btn slowmo slowmo__bar"  ></div>
+ 
+
+<!-- Menu System -->
+
+
+ <!-- Menu System -->
+ <div class="menus menu menu--main menu menu--pause menu menu--score final-score-lbl high-score-lbl" ></div>
+ 
+
+<!--  -->
+<!--  -->
+
+
+<section id='tagline'>
+    <nav>
+      <ul class="uptabs"  >
+        <li><a href='index.html'>Home</a></li>
+        <!-- <li><a href='about.html'>About</a></li>
+        <li><a href='resume.html'>Resume</a></li> -->
+        <li>
+          <a href='https://github.com/onkarrw' aria-label='RSS'>
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="16" width="16">
+              <path fill="currentColor"
+                d="M 4 4.44 v 2.83 c 7.03 0 12.73 5.7 12.73 12.73 h 2.83 c 0 -8.59 -6.97 -15.56 -15.56 -15.56 Z m 0 5.66 v 2.83 c 3.9 0 7.07 3.17 7.07 7.07 h 2.83 c 0 -5.47 -4.43 -9.9 -9.9 -9.9 Z M 6.18 15.64 A 2.18 2.18 0 0 1 6.18 20 A 2.18 2.18 0 0 1 6.18 15.64">
+              </path>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class='inner'>
+      <h1 class='flair something'> Onkar Wagh</h1>
+      <h2 class="somethingmaybe">Learning...</h2>
+      <h3>
+        <a href=''>Java</a>,
+        <a href=''>Web Developement</a>,
+        <a href=''>C++</a>,
+        <a href=''>Python</a>
+    </div>
+    <div id='about' >
+      <p style='padding-left: 1.5rem;'>
+        👋 <span class='flair' , style='font-size: 1.8rem'>Hey there</span>, I am Onkar Wagh
+      </p>
+      <h2 class="ima" >I'm a<span></span></h2>
+
+      <p> <strike >Student</strike>, <strike >Engineer</strike>, <strike> Person </strike>,
+          <span style='position: relative; display: inline-block; left: -1rem; top: 1rem; transform: rotate(12deg);'>
+            ...uh
+          </span>
+
+        <p id="demo"></p>
+      </p>
+
+    </div>
+
+    
+  </section>
+
+  <script src="index.js" type="text/javascript"></script>
+
+  
+
+
+  <section id='cta'>
+    <a class='feed' href='https://github.com/onkarrw'>check out the <span class='flair'>feed</span></a>
+  </section>
+
+  <div class='social-wrapper'>
+    <h2 class="socialsima" >Socials</h2>
+    <ul class='social'  style="z-index: 2">
+      <div class="social-links"></div>
+
+      <a onload="change()" id ="ell" href="https://www.linkedin.com/"><i class="fa fa-linkedin" style="font-size:35px"></i></a>
+      <a href="https://twitter.com/Omkar66727044"><i class="fa fa-twitter" style="font-size:35px"></i></a>
+      <a href="https://github.com/onkarrw"><i class="fa fa-github" style="font-size:35px"></i></a>
+      <a href="https://www.instagram.com/0mkar_2654/"><i class="fa fa-instagram" style="font-size:35px"></i></a>
+
+
+    </ul>
+  </div>
+
+</body>
+</html>
+
+
+<style>
+
+  .something{
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    }
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  
+  .somethingmaybe
+  {
+    animation-name: example2;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  
+  }
+  
+  @keyframes example2 {
+    0%   {color:red; left:0px; top:0px;}
+    25%  {color:yellow; left:200px; top:0px;}
+    50%  {color:blue; left:200px; top:200px;}
+    75%  {color:green; left:0px; top:200px;}
+    100% {color:red; left:0px; top:0px;}
+  }
+  
+</style>
+
+<script src="scipt.js"></script>
+<script src = "BoxSmasher/scipt.js"></script>

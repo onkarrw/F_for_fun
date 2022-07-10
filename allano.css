@@ -1,0 +1,569 @@
+
+
+
+
+body {
+        font-family: "Open Sans", sans-serif;
+        background-image:url("../imgs/11.mp4") ;
+        color: #fff;
+        position: relative;
+        background: transparent;
+        margin:100px;
+        font-family: "Open Sans", sans-serif;
+  background-color: #743b9c;
+  color: #fff;
+  position: relative;
+  background: transparent;
+  margin: 100px;
+      }
+      
+      body::before {
+        content: "";
+        position: fixed;
+        background: #040404 url("../imgs/11.mp4") top right no-repeat;
+        background-position: 80%;
+        background-size: cover;
+        left: 0;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        z-index: -1;
+      }
+      
+      @media (min-width: 1024px) {
+        body::before {
+          background-attachment: fixed;
+        }
+      }
+      
+      a {
+        color: #ffffff;
+      }
+      
+      a:hover {
+        color: #895ca0;
+        text-decoration: none;
+      }
+      
+      h1, h2, h3, h4, h5, h6 {
+        font-family: "Raleway", sans-serif;
+      }
+  
+  
+  
+      
+  /*--------------------------------------------------------------
+  # Resume
+  --------------- -----------------------------------------------*/
+      .resume .resume-title {
+        font-size: 26px;
+        font-weight: 700;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: rgb(234, 15, 15);
+      }
+      
+      .resume .resume-item {
+        padding: 0 0 20px 20px;
+        margin-top: -2px;
+        border-left: 2px solid rgba(108, 54, 161, 0.2);
+        position: relative;
+      }
+      
+      .resume .resume-item h4 {
+        line-height: 18px;
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-family: "Poppins", sans-serif;
+        color: #a080bd;
+        margin-bottom: 10px;
+      }
+      
+      .resume .resume-item h5 {
+        font-size: 16px;
+        background: rgba(21, 16, 73, 0.15);
+        padding: 5px 15px;
+        display: inline-block;
+        font-weight: 600;
+        margin-bottom: 10px;
+      }
+      
+      .resume .resume-item ul {
+        padding-left: 20px;
+      }
+      
+      .resume .resume-item ul li {
+        padding-bottom: 10px;
+      }
+      
+      .resume .resume-item:last-child {
+        padding-bottom: 0;
+      }
+      
+      .resume .resume-item::before {
+        content: "";
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        border-radius: 50px;
+        left: -9px;
+        top: 0;
+        background: #988cc6;
+        border: 2px solid #908dc3;
+      }
+      
+      .inde
+      {
+        color: white;
+        
+        padding: 20px;
+      }
+  
+      .inde:hover
+      {
+        color: rgb(66, 126, 237);
+        text-decoration: initial;
+      }
+      
+  .aboutima
+  {
+    
+    background: -webkit-linear-gradient(rgb(168, 35, 2), hsl(66, 97%, 43%), hsl(113, 97%, 25%), hsl(194, 98%, 37%), hsl(297, 93%, 21%));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+  }
+  
+    
+  .aboutima2
+  {
+    
+    background: -webkit-linear-gradient( hsl(65, 12%, 37%), rgb(185, 141, 130), hsl(194, 54%, 83%), hsl(298, 24%, 80%));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    
+  }
+  
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+    transition: ease-in-out 0.3s;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    z-index: 997;
+    overflow-y: auto;
+  }
+  
+  #header * {
+    transition: ease-in-out 0.3s;
+    /*background: rgba(0, 0, 0, 0.3);*/
+    /*padding: 30px;*/
+  }
+  
+  #header h1 {
+    font-size: 48px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #header h1 a, #header h1 a:hover {
+    color: #fff;
+    line-height: 1;
+    display: inline-block;
+  }
+  
+  #header h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  #header h2 span {
+    color: #fff;
+    border-bottom: 2px solid #FCAE1E;
+    padding-bottom: 6px;
+  }
+  
+  #header img {
+    padding: 0;
+    margin: 0;
+  }
+  
+  #header .social-links {
+    margin-top: 40px;
+    display: flex;
+  }
+  
+  #header .social-links a {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgb(6, 6, 6);
+    line-height: 1;
+    margin-right: 8px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: #FCAE1E
+  }
+  
+  #header .social-links a:hover {
+    background: #040404;
+    /*#EC9706; */
+    /*#18d26e*/
+  }
+  
+  @media (max-width: 992px) {
+    #header h1 {
+      font-size: 36px;
+    }
+    #header h2 {
+      font-size: 20px;
+      line-height: 30px;
+    }
+    #header .social-links {
+      margin-top: 15px;
+    }
+    #header .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  /* Header Top */
+  #header.header-top {
+    height: 80px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.9);
+  }
+  
+  #header.header-top .social-links, #header.header-top h2 {
+    display: none;
+  }
+  
+  #header.header-top h1 {
+    margin-right: auto;
+    font-size: 36px;
+  }
+  
+  #header.header-top .container {
+    display: flex;
+    align-items: center;
+  }
+  
+  #header.header-top .nav-menu {
+    margin: 0;
+  }
+  
+  @media (max-width: 768px) {
+    #header.header-top {
+      height: 60px;
+    }
+    #header.header-top h1 {
+      font-size: 26px;
+    }
+  }
+  
+  
+  
+  /*--------------------------------------------------------------
+  # Sections General
+  --------------------------------------------------------------*/
+  section.section-show {
+    top: 100px;
+    bottom: auto;
+    opacity: 1;
+    padding-bottom: 45px;
+  }
+  
+  section .container {
+    
+    padding: 30px;
+  }
+  
+  @media (max-width: 768px) {
+    section {
+      top: 120px;
+    }
+    section.section-show {
+      top: 80px;
+    }
+  }
+  
+  .section-title h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .section-title h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #FCAE1E;
+    margin: 4px 10px;
+  }
+  
+  .section-title p {
+    margin: 0;
+    margin: -15px 0 15px 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+  }
+  
+  
+    /*--------------------------------------------------------------
+    # About
+    --------------------------------------------------------------*/
+      
+  
+    .about-me .content h3 {
+      font-weight: 700;
+      font-size: 26px;
+      color: #1efc94;
+    }
+    
+    .about-me .content ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .about-me .content ul li {
+      padding-bottom: 10px;
+    }
+    
+    .about-me .content ul i {
+      font-size: 20px;
+      padding-right: 2px;
+      color: #1e61fc;
+    }
+    
+    .about-me .content p:last-child {
+      margin-bottom: 0;
+    }
+    
+    .wave {
+      animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+      animation-duration: 2.5s;        /* Change to speed up or slow down */
+      animation-iteration-count: infinite;  /* Never stop waving :) */
+      transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+      display: inline-block;
+    }
+    
+    @keyframes wave-animation {
+        0% { transform: rotate( 0.0deg) }
+       10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+       20% { transform: rotate(-8.0deg) }
+       30% { transform: rotate(14.0deg) }
+       40% { transform: rotate(-4.0deg) }
+       50% { transform: rotate(10.0deg) }
+       60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+      100% { transform: rotate( 0.7deg) }
+    }
+    
+    /*--------------------------------------------------------------
+    # Counts
+    --------------------------------------------------------------*/
+    .counts {
+      padding: 70px 0 60px;
+    }
+    
+    .counts .count-box {
+      padding: 30px 30px 25px 30px;
+      width: 100%;
+      position: relative;
+      text-align: center;
+      background: rgba(255, 255, 255, 0.08);
+    }
+    
+    .counts .count-box i {
+      position: absolute;
+      top: -25px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 24px;
+      background: rgba(212, 7, 7, 0.1);
+      padding: 12px;
+      color: #18d26e;
+      border-radius: 50px;
+    }
+    
+    .counts .count-box span {
+      font-size: 36px;
+      display: block;
+      font-weight: 600;
+      color: rgb(156, 135, 203);
+    }
+    
+    .counts .count-box p {
+      padding: 0;
+      margin: 0;
+      font-family: "Raleway", sans-serif;
+      font-size: 14px;
+    }
+    
+    /*--------------------------------------------------------------
+    # Skills
+    --------------------------------------------------------------*/
+    
+  .progress {
+    height: 20px;
+      border-radius:20px;
+  
+  }
+  
+  .progress .skill .val {
+    float: right;
+    font-style: normal;
+    margin: 0 20px 0 0;
+  }
+  span {
+    
+      display:block;
+      position: relative;
+      font-size: 13px;
+      font-weight: 600;
+      text-transform:uppercase;
+      color: #888888;
+      line-height: 17px;
+      margin-bottom:5px;
+  }
+  .progress-bar {
+    text-align: left;
+  
+    border-radius:20px;
+    transition-duration: 3s;
+  }
+  
+    .skills .progress {
+      height: 50px;
+      display: block;
+      background: none;
+      
+    }
+    
+    .skills .progress .skill {  
+      padding: 10px 0;
+      margin: 0 0 6px 0;
+      text-transform: uppercase;
+      display: block;
+      font-weight: 600;
+      font-family: "Poppins", sans-serif;
+      color: rgb(159, 168, 219);
+    }
+    
+    .skills .progress .skill .val {
+      float: right;
+      font-style: normal;
+    }
+    
+    .skills .progress-bar-wrap {
+      background: rgb(26, 2, 41);
+    } 
+    
+    .skills .progress-bar { 
+      width: 1px;
+      height: 10px;
+      transition: 0.9s;
+      background-color: #e6e0ea;
+    }
+    /*--------------------------------------------------------------
+    # Interests
+    --------------------------------------------------------------*/
+    .interests .icon-box {
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      background: rgba(136, 79, 79, 0.08);
+      transition: ease-in-out 0.3s;
+    }
+    
+    .interests .icon-box i {
+      font-size: 32px;
+      padding-right: 10px;
+      line-height: 1;
+    }
+    
+    .interests .icon-box h3 {
+      font-weight: 700;
+      margin: 0;
+      padding: 0;
+      line-height: 1;
+      font-size: 16px;
+      color: rgb(173, 160, 202);
+    }
+    
+    .interests .icon-box:hover {
+      background: rgba(255, 255, 255, 0.12);
+    }
+  
+  
+    .inde
+    {
+      
+      font-size: large;
+      padding: 20px;
+ 
+    }
+  
+  
+    a {
+      color: #ffffff;
+    }
+    
+    a:hover {
+      color: #895ca0;
+      text-decoration: none;
+    }
+    
+  
+  .aboutima
+  {
+    
+    background: -webkit-linear-gradient(rgb(234, 53, 7), hsl(66, 96%, 38%), hsl(113, 28%, 43%), hsl(191, 22%, 70%), hsl(297, 93%, 21%));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    font-size: 50px;
+    -webkit-text-fill-color: transparent;
+    
+  }
+  
+
+  #splash
+  {
+     position:absolute;
+     min-width: 100%;
+     min-height: 100vh;
+     object-fit:cover;
+     animation-duration: 11s;
+     animation-name: fadein;
+     animation-iteration-count: 1;
+     opacity:0.5;
+  }
