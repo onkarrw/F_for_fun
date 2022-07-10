@@ -19,7 +19,7 @@ function typeWriter() {
        i=0
        typeWriter()
 
-    
+    }
 
 }
 
