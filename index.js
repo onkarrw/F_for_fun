@@ -15,29 +15,14 @@ function typeWriter() {
 
     else
     {
-    //    dem.innerHTML = null
-    //    i=0
-    //    typeWriter()
+       dem.innerHTML = null
+       i=0
+       typeWriter()
 
-    erase()
-    }
-
-}
-
-
-
-
-function erase()
-{
-    if (i> 0)
-    {
-
-        dem.innerText.charAt(i) = ""
-        i--
-        setTimeout(erase, speed)
-    }
+    
 
 }
+
 
 
 
